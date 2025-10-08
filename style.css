@@ -99,3 +99,37 @@ footer {
   text-align: center;
   padding: 15px 0;
 }
+
+/* ===== Page Header ===== */
+.page-header {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #d5f2d5;
+}
+
+.page-header h2 {
+  color: #0a8a3a;
+}
+
+/* ===== Services ===== */
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+.service-card {
+  background-color: #f0fff0;
+  padding: 20px;
+  border-radius: 15px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+  color: #0a8a3a;
+  margin-bottom: 10px;
+}
