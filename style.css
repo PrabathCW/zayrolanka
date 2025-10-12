@@ -133,3 +133,45 @@ footer {
   color: #0a8a3a;
   margin-bottom: 10px;
 }
+
+/* ===== Tour Packages ===== */
+.tour-packages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+.tour-card {
+  background-color: #f0fff0;
+  width: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.tour-card:hover {
+  transform: translateY(-5px);
+}
+
+.tour-card img {
+  width: 100%;
+  height: auto;
+}
+
+.tour-card h3 {
+  color: #0a8a3a;
+  margin: 15px 0 10px;
+}
+
+.tour-card p {
+  padding: 0 15px 15px;
+  font-size: 0.95em;
+}
+
+.tour-card .btn {
+  margin-bottom: 15px;
+}
