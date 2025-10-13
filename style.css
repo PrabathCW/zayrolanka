@@ -175,3 +175,64 @@ footer {
 .tour-card .btn {
   margin-bottom: 15px;
 }
+
+/* ===== About Page ===== */
+.about-section {
+  padding: 60px 20px;
+  background-color: #f9fff9;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.about-img {
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+  max-width: 500px;
+}
+
+.about-text h3 {
+  color: #0a8a3a;
+  margin-bottom: 10px;
+}
+
+/* ===== Guide Profile ===== */
+.guide-profile {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #eafbea;
+}
+
+.profile-card {
+  max-width: 400px;
+  margin: auto;
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.profile-card h3 {
+  color: #0a8a3a;
+  margin-bottom: 5px;
+}
+
+.profile-card p {
+  margin: 5px 0;
+}
